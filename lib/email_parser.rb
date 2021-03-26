@@ -14,5 +14,6 @@ class EmailAddressParser
   
   def parse
     email.split (/, | /).quniq
+  end
   
 end
