@@ -13,7 +13,7 @@ class EmailAddressParser
   end
   
   def parse
-    email.split (/, | /).quniq
+    email.split(/, | /).quniq
   end
   
 end
